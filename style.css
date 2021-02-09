@@ -1,0 +1,47 @@
+/* . means class */
+.grid {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 80px;
+    margin-top: 50px;
+    background-color: rgba(109, 127, 151, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff; 
+    color: #85796b;
+}
+
+.grid div {
+    height: 50px;
+    width: 50px;
+}
+
+.invisible {
+    background-color: white;
+}
+
+body {
+  background-image: url("candy-crush-background-2.png");
+  max-width: 60vh;
+  display: auto;
+}
+
+.score-board {
+  background-color: skyblue;
+  border-radius: 100px;
+  margin-top: 90px;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  min-width: 90px;
+
+  display: auto;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(#FFB6C1, #FFC0CB);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) inset, 0 1px 0 #fff;
+  color: #85796b;
+}
